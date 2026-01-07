@@ -454,7 +454,7 @@ const App = () => {
 
               </div>
               
-                     {/* Simple Avatar/Visual Representation */}
+              {/* Simple Avatar/Visual Representation */}
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0">
                 <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center overflow-hidden">
                    <span className="text-6xl font-bold text-slate-300 dark:text-zinc-700">TZ</span>
@@ -464,10 +464,6 @@ const App = () => {
           </div>
         </section>
 
-  {/* 2. Glow */}
-  <div className="absolute -bottom-4 -right-4 w-full h-full bg-blue-500/20 rounded-full blur-2xl -z-10"></div>
-</div>
-  
         {/* Education & Stats */}
         <section className="py-12 bg-white dark:bg-zinc-900 border-y border-slate-100 dark:border-zinc-800 transition-colors duration-300">
           <div className="max-w-6xl mx-auto px-4">
