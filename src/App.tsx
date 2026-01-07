@@ -454,16 +454,14 @@ const App = () => {
 
               </div>
               
-                     {/* Profile Image */}
-        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0">
-          <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 overflow-hidden">
-            <img
-              src="/profile.jpg"
-              alt="Taufik Zhang"
-              className="w-full h-full object-cover"
-            />
+              {/* Simple Avatar/Visual Representation */}
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0">
+                <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center overflow-hidden">
+                   <span className="text-6xl font-bold text-slate-300 dark:text-zinc-700">TZ</span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
         </section>
 
         {/* Education & Stats */}
