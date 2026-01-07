@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* We removed the hardcoded background-color here */
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #030712; /* Dark background to match your design */
-  color: white;
+  scroll-behavior: smooth;
 }
